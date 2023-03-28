@@ -10,9 +10,17 @@
 	<!-- YOUR own local CSS -->
 	<link rel="stylesheet" href="/css/main.css"/>
 
-	<title>Insert title here</title>
+	<title>Books</title>
 </head>
 <body>
+	<div class="mx-auto" style="width:450px;" >
+		<h1 class="mt-3 mb-3" style="color:pink;" ><c:out value="${book.title}"></c:out></h1>
+		<p>Description:<c:out value="${book.description}"/></p>
+		<p>Language:<c:out value="${book.language}"/></p>
+		<p>Number of pages:<c:out value="${book.numberOfPages}"/></p>
+							
+	</div>
+
 
 </body>
 </html>
